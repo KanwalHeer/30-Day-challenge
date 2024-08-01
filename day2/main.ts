@@ -9,7 +9,7 @@
 
 function flElements(arr: number[]) {
   let firstElement = arr[0];
-  let lastElement = arr.length - 1;
+  let lastElement = arr[arr.length - 1];
   if (arr.length === 0) {
     return 0;
   } else if (arr.length === 1) {
