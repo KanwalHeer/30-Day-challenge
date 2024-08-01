@@ -1,4 +1,4 @@
-# 30-Day-challenge From Hello Coders Team
+# 30-Day-DSA-challenge From Hello Coders Team
 
 # Day:1 Task
 
