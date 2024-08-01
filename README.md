@@ -12,6 +12,8 @@
 - Input: [1, 2, 3, 4, 5]
 - Output: 15
 
+--
+
 *Question 2: Reverse a String*
 *Instructions:*
 
@@ -22,6 +24,8 @@ Example:
 
 Input: "hello"
 Output: "olleh"  
+
+----
 
 # Day:2 Task
 
@@ -34,6 +38,7 @@ Objective: Write a TypeScript function that takes an array of numbers and return
 If the array has only one element, the function should return an array with that element duplicated.
 Ensure the function handles arrays with a single element correctly.
 
+--
 
 *Question 4 : Find the Largest Number*
 *Instructions:*
@@ -46,6 +51,8 @@ If the array contains only one number, return that number.
 Ensure the function handles an empty array gracefully (you might decide to return undefined or throw an error based on your needs).
 Note:
 This solution avoids using built-in methods like Math.max and demonstrates basic iteration and comparison logic.
+
+----
 
 # Day 3: Task
 
@@ -69,6 +76,8 @@ function removeDuplicates(arr: number[]): number[] {
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
 console.log(removeDuplicates([10, 10, 20, 30, 30]));  // Output: [10, 20, 30]
 
+--
+
 *Question 6:  Find the Second Largest Number in an Array*
  *Instructions:*
 Write a TypeScript function named findSecondLargest that takes an array of numbers and returns the second largest number in the array. *Do not use built-in methods* like sort.
@@ -87,6 +96,8 @@ function findSecondLargest(arr: number[]): number {
  *Example usage:*
 console.log(findSecondLargest([1, 2, 3, 4, 5])); // Output: 4
 console.log(findSecondLargest([10, 20, 30, 15, 25])); // Output: 25
+
+----
 
 # Day 4: Task
 
@@ -121,7 +132,7 @@ console.log(duplicates); // [2, 5]
 2. Use a nested loop to compare each element with every other element.
 3. If a duplicate is found, add it to the result array if it is not already included.
 
----
+--
 
 *Question 8: Filter Students with Marks Greater than 80*
 
