@@ -211,7 +211,7 @@ function manipulateArrays(arr1: number[], arr2: number[]): number {
 }
 
 // Example Test Cases
-// manipulateArrays([1, 2, 3], [1, 2, 3]) should output 216 (product of [1, 2, 3, 1, 2, 3])
+// manipulateArrays([1, 2, 3], [1, 2, 3]) should output 36 (product of [1, 2, 3, 1, 2, 3])
 // manipulateArrays([1, 2], [3, 4, 5]) should output 3 (middle element of [1, 2, 3, 4, 5])
 // manipulateArrays([1, 2], [3, 4]) should output 6 (sum of [1, 2, 1, 2])
 
