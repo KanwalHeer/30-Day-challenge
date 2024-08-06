@@ -364,7 +364,7 @@ console.log(queue.dequeue());  // Output: "b"
 console.log(queue.isEmpty()); // Output: true
 
 
-# Day 9: Task
+# Day 10: Task
 
 *Question 19: Implement a Basic Counter*
 
