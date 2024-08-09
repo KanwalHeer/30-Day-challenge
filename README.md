@@ -403,5 +403,80 @@ student.setName("Alice");
 student.setGrade(90);
 console.log(student.getRecord()); // Output: { name: "Alice", grade: 90 }
 ```
+---
 
+# Day 11: Task
+
+*Question 1: Merge Two Sorted Arrays*
+Write a function mergeSortedArrays that takes two sorted arrays of numbers and returns a single sorted array by merging them. You cannot use any built-in sort function.
+
+typescript
+function mergeSortedArrays(arr1: number[], arr2: number[]): number[] {
+    // Your implementation here
+}
+
+// Example Usage:
+const arr1 = [1, 3, 5, 7];
+const arr2 = [2, 4, 6, 8];
+console.log(mergeSortedArrays(arr1, arr2)); 
+// Expected output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+ Hint:
+- *Hint 1*: Start with two pointers, one at the beginning of each array.
+- *Hint 2*: Compare the elements at both pointers and add the smaller element to the result array.
+- *Hint 3*: Move the pointer of the array from which the element was taken.
+- *Hint 4*: Repeat until all elements from both arrays are merged.
+
+*Question 2: Find the First Non-Repeated Character*
+Write a function firstNonRepeatedCharacter that takes a string and returns the first character that does not repeat. If all characters repeat, return an empty string.
+
+typescript
+function firstNonRepeatedCharacter(s: string): string {
+    // Your implementation here
+}
+
+// Example Usage:
+const s = "swiss";
+console.log(firstNonRepeatedCharacter(s)); 
+// Expected output: "w"
+
+Hint:
+- *Hint 1*: Create an object to count the frequency of each character in the string.
+- *Hint 2*: Iterate through the string and update the count for each character.
+- *Hint 3*: Iterate through the string again and find the first character with a count of 1 in the object.
+- *Hint 4*: If no character with a count of 1 is found, return an empty string.
+
+---
+
+# Day 12: Task
+
+*Question 1: Remove Duplicates from Sorted Array*
+*Problem:*
+You are given a sorted array that may contain duplicate elements. Your task is to remove the duplicates in-place (without creating a new array) and return the length of the resulting array. The array should be compressed so that the unique elements are placed first.
+
+*Example:*
+typescript
+Input: [1, 1, 2, 2, 3, 4, 4, 5]
+Output: 5
+Explanation: The resulting array is [1, 2, 3, 4, 5] and its length is 5.
+
+
+*Note:*
+* Only return the length of the unique elements.
+* Duplicate elements should be ignored.
+
+*Question 2: Move Zeroes*
+*Problem:*
+You are given an array that contains some zero elements. Your task is to move all the zeroes to the end of the array, while keeping the relative order of the non-zero elements unchanged.
+
+*Example:*
+typescript
+Input: [0, 1, 0, 3, 12]
+Output: [1, 3, 12, 0, 0]
+
+
+*Note:*
+* You must modify the array in-place.
+* The relative order of the non-zero elements should remain the same.
 
