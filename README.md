@@ -580,8 +580,7 @@ findMaxSum([1, 2, 3], [4, 5, 6]); // Output: 9 (3 from the first array + 6 from 
 
 4. *Step 4: Test with Multiple Scenarios*
    - Test the function with different arrays to ensure it correctly finds the maximum values and sums them.
-
-By following these steps, students will have a clear path to solving the problem, allowing them to build their understanding of both array traversal and function utilization in TypeScript.
+   - 
 --
 *Question 28: *Check if a String is a Palindrome**
 *Problem Statement:*  
