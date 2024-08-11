@@ -580,8 +580,9 @@ findMaxSum([1, 2, 3], [4, 5, 6]); // Output: 9 (3 from the first array + 6 from 
 
 4. *Step 4: Test with Multiple Scenarios*
    - Test the function with different arrays to ensure it correctly finds the maximum values and sums them.
-   - 
---
+  
+     
+---
 *Question 28: *Check if a String is a Palindrome**
 *Problem Statement:*  
 Write a function isPalindrome that takes a string as input and checks if it reads the same backward as forward. The function should return true if the string is a palindrome and false otherwise.
