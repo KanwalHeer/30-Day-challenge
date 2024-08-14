@@ -608,4 +608,133 @@ isPalindrome("hello"); // Output: false
 
 4. *Step 4: Test with Various Strings*
    - Test the function with both palindromes and non-palindromes to verify that it works as expected.
+  
+---
+
+# Day 15: Task
+
+*Question 29: Anagrams*
+
+*Problem:*
+Write a TypeScript function areAnagrams(str1: string, str2: string): boolean that checks if two strings are anagrams of each other. An anagram is a word or phrase formed by rearranging the letters of another word or phrase using all the original letters exactly once.
+
+*Hints:*
+
+1. *Normalize Case:*
+   - Convert both strings to lowercase to ensure that the comparison is case-insensitive.
+   - Traverse each character of the strings and convert uppercase characters to lowercase.
+
+2. *Count Characters:*
+   - Use a fixed-size data structure like an array to count the occurrences of each character in both strings. Since we're only dealing with lowercase letters, an array of size 26 (for 'a' to 'z') will suffice.
+   - Initialize two arrays (or two objects with 26 keys) to keep track of character frequencies for each string.
+
+3. *Compare Character Counts:*
+   - After populating the frequency arrays for both strings, compare them to determine if they are identical.
+   - If they match, then the two strings are anagrams; otherwise, they are not.
+
+4. *Edge Cases:*
+   - Check if the strings have different lengths initially. If they do, they cannot be anagrams.
+   - Handle empty strings as valid anagrams of each other.
+
+*Question 30: Reverse Words in a Sentence*
+
+*Problem:*
+Write a TypeScript function reverseWords(sentence: string): string that reverses the words in a given sentence. For example, if the input is "Hello world", the output should be "world Hello".
+
+*Hints:*
+
+1. *Identify Word Boundaries:*
+   - Traverse the sentence character by character.
+   - Detect the start and end of each word by identifying spaces or the start/end of the string.
+
+2. *Extract Words:*
+   - Use indices to keep track of where each word starts and ends.
+   - Build an array of words from these indices by manually copying characters into new strings.
+
+3. *Reverse the Order of Words:*
+   - After extracting the words, create a new array to hold them in reverse order.
+   - Iterate through the original array of words from the end to the beginning and insert them into the new array.
+
+4. *Reconstruct the Sentence:*
+   - Concatenate the reversed array of words into a single string, ensuring that words are separated by spaces.
+
+5. *Edge Cases:*
+   - Handle multiple spaces between words by treating consecutive spaces as single separators.
+   - Consider sentences with leading, trailing, or multiple spaces.
+
+
+---
+
+# Day 16: Task
+
+*Question:31 *Sum of Even Numbers from Multiple Arrays**
+
+*Problem Statement:*
+You are given three arrays of integers. Write a function sumEvenNumbers(arr1: number[], arr2: number[], arr3: number[]): number[] that calculates the sum of all even numbers in each array. The function should return a new array containing the sum of even numbers from each of the three arrays.
+
+*Example:*
+typescript
+sumEvenNumbers([1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]) // [6, 14, 22]
+sumEvenNumbers([2, 4, 6], [1, 3, 5], [10, 20, 30]) // [12, 0, 60]
+sumEvenNumbers([11, 13, 15], [2, 4], [8, 10, 12]) // [0, 6, 30]
+
+
+*Hint:*
+- Iterate through each array and sum up only the even numbers.
+- Store the sum for each array in a new array.
+- Return the new array containing the sums
+
+
+
+*Question:32 *Concatenate Strings from Arrays**
+
+*Problem Statement:*
+You are given three arrays of strings. Write a function concatenateFirstLetters(arr1: string[], arr2: string[], arr3: string[]): string[] that extracts the first letter of each string in the arrays, concatenates these letters for each array, and returns a new array containing the concatenated strings.
+
+*Example:*
+typescript
+concatenateFirstLetters(["apple", "banana", "cherry"], ["dog", "elephant", "frog"], ["grape", "honeydew", "kiwi"])
+// ["abc", "def", "ghk"]
+
+concatenateFirstLetters(["sun", "moon"], ["star", "planet"], ["galaxy", "comet"])
+// ["sm", "sp", "gc"]
+
+concatenateFirstLetters(["table", "chair", "lamp"], ["carpet", "curtain", "sofa"], ["desk", "shelf", "cabinet"])
+// ["tcl", "ccs", "dsc"]
+
+
+*Hint:*
+- Iterate through each string in the arrays, extract the first letter, and concatenate them.
+- Store the concatenated result for each array in a new array.
+- Return the new array containing the concatenated strings.
+
+---
+
+# Day 17: Task
+
+*Question 33: *Calculate the Product of Odd Numbers**
+Write a function productOfOdds(numbers: number[]): number that takes an array of numbers as input. The function should calculate the product of all odd numbers in the array and return the result. If there are no odd numbers, return 1.
+
+*Example:*
+typescript
+console.log(productOfOdds([2, 3, 5, 6])); // Output: 15
+console.log(productOfOdds([2, 4, 6, 8])); // Output: 1
+
+
+*Hint:* Traverse through the array, multiply the odd numbers, and handle the case where no odd numbers are present.
+
+---
+
+*Question 34: *Find the Longest Word in a Sentence**
+Write a function findLongestWord(sentence: string): string that takes a string sentence as input. The function should return the longest word in the sentence. If there are multiple words with the same length, return the first one.
+
+*Example:*
+typescript
+console.log(findLongestWord("The quick brown fox jumps over the lazy dog")); // Output: "jumps"
+console.log(findLongestWord("I love coding in TypeScript")); // Output: "TypeScript"
+
+---
+
+
+
 
