@@ -777,9 +777,9 @@ function squareEvenNumbers(numbers: number[]): number[] {
 2. Square each of the filtered numbers and store the results in a new array.
 ---
 
-# Day 9: Task
+# Day 19: Task
 
-*Question 1: Find the Maximum Difference*
+*Question 37: Find the Maximum Difference*
 *Problem Statement:*
 Given an array of integers, find the maximum difference between any two elements in the array. The difference should be calculated as difference = arr[j] - arr[i] where j > i.
 
@@ -795,7 +795,7 @@ Iterate through the array, keeping track of the minimum value encountered so far
 
 ---
 
-*Question 2: String Character Frequency*
+*Question 38: String Character Frequency*
 *Problem Statement:*
 Write a function that takes a string as input and returns an object where the keys are characters and the values are the frequency of those characters in the string.
 
