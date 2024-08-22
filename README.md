@@ -917,5 +917,73 @@ Hint: Repeatedly divide the number by 2 and note down the remainder. Join the re
 
 ---
 
+# Day 24: Task
 
 
+*Question 47: Generate Fibonacci Sequence*
+Write a function generateFibonacci(n: number): number[] that generates and returns the first n numbers of the Fibonacci sequence. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the previous two.
+
+*Hint:* Use a loop or recursion to build the sequence.
+
+*Example:*
+typescript
+generateFibonacci(5); // Output: [0, 1, 1, 2, 3]
+generateFibonacci(7); // Output: [0, 1, 1, 2, 3, 5, 8]
+
+
+
+*Question 48: Replace Vowels with Asterisks*
+Write a function replaceVowels(str: string): string that takes a string str and returns a new string where all vowels (a, e, i, o, u) are replaced with asterisks (*). The function should be case-insensitive.
+
+*Hint:* You can use a loop or a regular expression to find and replace vowels.
+
+*Example:*
+typescript
+replaceVowels('Hello World'); // Output: 'H*ll* W*rld'
+replaceVowels('TypeScript');  // Output: 'Typ*Scr*pt'
+
+---
+
+# Day 25: Task
+
+*Question 49: Calculate the Difference Between the Sum of Odd and Even Digits*
+*Problem:* You are given a positive integer. You need to calculate the sum of the odd digits and the sum of the even digits, then find the difference between these two sums. The difference should be positive.
+
+*Example:*
+- Input: number = 1234
+- Output: 2 (Odd sum: 1 + 3 = 4, Even sum: 2 + 4 = 6, Difference: |4 - 6| = 2)
+
+*Hint:* Convert the number to a string, then check each digit to see if it’s odd or even, and calculate the respective sums.
+
+---
+
+*Question 50: Find the Smallest Divisor of a Number (Greater than 1)*
+*Problem:* You are given a positive integer. Your task is to find the smallest divisor of this number that is greater than 1.
+
+*Example:*
+- Input: number = 15
+- Output: 3 (because 3 is the smallest divisor of 15 that is greater than 1)
+
+*Hint:* Use a loop to check which number divides the integer without leaving a remainder, starting from 2 upwards.
+
+
+# Day 26: Task
+
+*Question 51: Reverse a Number*
+
+Write a function reverseNumber(n: number): number that takes a positive integer n and returns the number with its digits reversed.
+
+Example:
+typescript
+reverseNumber(1234); // Output: 4321
+reverseNumber(567);  // Output: 765
+
+
+*Question 52: Find the Average of Numbers in a String*
+
+Write a function averageOfNumbersInString(str: string): number that extracts all numbers from a given string, calculates their average, and returns the result.
+
+Example:
+typescript
+averageOfNumbersInString('The numbers are 12, 15, and 20.'); // Output: 15.666...
+averageOfNumbersInString('No numbers here!'); // Output: NaN
