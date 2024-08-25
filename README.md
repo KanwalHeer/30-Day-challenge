@@ -987,3 +987,65 @@ Example:
 typescript
 averageOfNumbersInString('The numbers are 12, 15, and 20.'); // Output: 15.666...
 averageOfNumbersInString('No numbers here!'); // Output: NaN
+
+---
+
+# Day 27: Task
+
+*Question 53: Count the Number of Divisors*
+*Description:*
+Write a TypeScript function that takes a positive integer as input and returns the number of its divisors (factors). A divisor is a number that divides the input number without leaving a remainder.
+
+*Example:*
+typescript
+Input: 12
+Output: 6  // (1, 2, 3, 4, 6, 12)
+
+Input: 7
+Output: 2  // (1, 7)
+
+
+*Hint:* Use a loop to check each number from 1 to the given number to see if it divides the number evenly.
+
+---
+
+*Question 54: Check if a Number is a Perfect Square*
+*Description:*
+Write a TypeScript function that takes a positive integer as input and returns true if the number is a perfect square, otherwise return false. A perfect square is a number that is the square of an integer.
+
+*Example:*
+typescript
+Input: 16
+Output: true  // (4 * 4 = 16)
+
+Input: 20
+Output: false
+
+
+*Hint:* Use the square root function Math.sqrt() and check if the result is an integer.
+
+---
+
+# Day 28: Task
+
+*Question 55: Armstrong Number Checker (Without Using split)*
+*Problem:* Check if a given number is an Armstrong number. An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.
+
+*JHint:*
+1. First, count the number of digits in the given number.
+2. Then, iterate through each digit by extracting it one by one.
+3. Raise each digit to the power of the total number of digits and accumulate the result.
+4. Finally, compare the accumulated sum to the original number to determine if it is an Armstrong number.
+
+
+*Question 56: Find the LCM (Least Common Multiple)*
+*Problem:* Find the Least Common Multiple (LCM) of two numbers. LCM is the smallest number that is a multiple of both given numbers.
+
+*Hint:*
+1. Calculate the Greatest Common Divisor (GCD) of the two numbers using the Euclidean algorithm.
+2. Use the GCD to find the LCM with the formula:
+   \[
+   \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+   \]
+
+
